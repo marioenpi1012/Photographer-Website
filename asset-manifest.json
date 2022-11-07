@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/marioenpi1012/Photographer-Website/static/css/main.b33fb488.css",
-    "main.js": "/marioenpi1012/Photographer-Website/static/js/main.2fd4c1b1.js",
+    "main.js": "/marioenpi1012/Photographer-Website/static/js/main.28e33ce7.js",
     "static/js/787.866af4fb.chunk.js": "/marioenpi1012/Photographer-Website/static/js/787.866af4fb.chunk.js",
     "static/media/instagram-hover.svg": "/marioenpi1012/Photographer-Website/static/media/instagram-hover.21480e89adbd97fd0773.svg",
     "static/media/instagram.svg": "/marioenpi1012/Photographer-Website/static/media/instagram.54feb83ad9716f96ea53.svg",
@@ -15,11 +15,11 @@
     "static/media/youtube.svg": "/marioenpi1012/Photographer-Website/static/media/youtube.ee3414adcca2e3de0386.svg",
     "static/media/facebook.svg": "/marioenpi1012/Photographer-Website/static/media/facebook.3f330eb8d2bf1c5ad061.svg",
     "main.b33fb488.css.map": "/marioenpi1012/Photographer-Website/static/css/main.b33fb488.css.map",
-    "main.2fd4c1b1.js.map": "/marioenpi1012/Photographer-Website/static/js/main.2fd4c1b1.js.map",
+    "main.28e33ce7.js.map": "/marioenpi1012/Photographer-Website/static/js/main.28e33ce7.js.map",
     "787.866af4fb.chunk.js.map": "/marioenpi1012/Photographer-Website/static/js/787.866af4fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b33fb488.css",
-    "static/js/main.2fd4c1b1.js"
+    "static/js/main.28e33ce7.js"
   ]
 }
