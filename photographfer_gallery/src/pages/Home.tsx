@@ -6,6 +6,7 @@ import React from 'react';
 import { Images } from '../data/imagesName'
 import { imagesUrls } from '../data/imagesUrl'
 import AnimatedComponent from '../components/AnimatedComponent'
+import { Helmet } from 'react-helmet'
 const Home :React.FC = () =>{
     const landingData : Array<LandingInterface> = [
         {
@@ -38,6 +39,9 @@ const Home :React.FC = () =>{
 ]
     return(
         <AnimatedComponent>
+            <Helmet>
+                <title>Photosnap</title>
+            </Helmet>
             {
                 landingData.map((section : LandingInterface)=>(
                     <Landing 

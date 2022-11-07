@@ -9,7 +9,7 @@ const Nav :React.FC = () => {
             <section className='relative flex flex-row max-w-[119rem] mx-auto w-screen h-full justify-between items-center px-8 md:justify-around md:px-12 xl:px-40'>
                 <div>
                     <NavLink to='/'>
-                        <img src={process.env.PUBLIC_URL + 'images/shared/desktop/logo.svg'} alt="Website Logo" className='text-white'/>
+                        <img src={process.env.PUBLIC_URL + '/images/shared/desktop/logo.svg'} alt="Website Logo" className='text-white'/>
                     </NavLink>
                 </div>
                 <div className=' cursor-pointer md:hidden' onClick={() => setNavOpen(!navOpen)}>

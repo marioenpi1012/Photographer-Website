@@ -18,6 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* font 'DM Sans', sans-serif; */
 }
+
 .accent{
   background: linear-gradient(27deg, #FFC593 0%, #BC7198 49%, #5A77FF 95%);
 }

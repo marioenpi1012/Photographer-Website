@@ -26,7 +26,7 @@ const BackgroundImage : React.FC<BackgroundImageInterface> = ({image, imageUrl})
     }
     const imgUrl=`${imageUrl}${backgroundSize}/${image}.jpg`
     return(
-        <div style={{backgroundImage:`url("${imgUrl}")`}} 
+        <div style={{backgroundImage:`url("${process.env.PUBLIC_URL}${imgUrl}")`}} 
             className='bg-cover bg-center bg-no-repeat w-full h-full' >
         </div>
     )

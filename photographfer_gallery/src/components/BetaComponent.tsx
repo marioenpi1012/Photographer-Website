@@ -18,7 +18,7 @@ const BetaComponent:React.FC = () =>{
                     </h1>
                     <div className="text-white flex flex-row text-xl gap-4 items-center group h-full">
                         <input type="button" value="Get An Invite"  className="uppercase group-hover:underline ease-in-out duration-300"/>
-                        <img src={`${process.env.PUBLIC_URL}images/shared/desktop/arrow-white.svg`} alt="Go-to Arrow" 
+                        <img src={`${process.env.PUBLIC_URL}/images/shared/desktop/arrow-white.svg`} alt="Go-to Arrow" 
                             className="max-h-[1rem] group-hover:-translate-x-[5px] ease-in-out duration-300" />
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import { Images } from '../data/imagesName'
 import { imagesUrls } from '../data/imagesUrl'
 import {LandingInterface} from '../Interfaces'
 import AnimatedComponent from '../components/AnimatedComponent'
+import { Helmet } from 'react-helmet'
 const Stories: React.FC = () => {
     const LandingData: LandingInterface = {
         id: 0,
@@ -29,6 +30,9 @@ const Stories: React.FC = () => {
     } = LandingData
     return (
         <AnimatedComponent>
+            <Helmet>
+                <title>Photosnaps | Stories</title>
+            </Helmet>
             <section key={id} className="relative flex flex-col flex-nowrap md:items-center">
                 <div className='h-[29.4rem] w-screen md:h-[65rem]'>
                     <BackgroundImage image={Images.MOON_OF_APPALACIA} imageUrl={imagesUrls.STORIES} />

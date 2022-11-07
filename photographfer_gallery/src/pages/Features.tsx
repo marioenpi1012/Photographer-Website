@@ -6,6 +6,7 @@ import { imagesUrls } from "../data/imagesUrl"
 import FeaturesComponent from "../components/Features"
 import BetaComponent from "../components/BetaComponent"
 import AnimatedComponent from "../components/AnimatedComponent"
+import { Helmet } from 'react-helmet'
 const Features:React.FC = () =>{
     const FeaturesData:LandingInterface = {
         id:0,
@@ -18,6 +19,11 @@ const Features:React.FC = () =>{
     const {id, image, heading, description, accent, dark } = FeaturesData
     return(
         <AnimatedComponent>
+            <Helmet>
+                <title>
+                    Photosnaps | Features
+                </title>
+            </Helmet>
             <Landing 
                 key={id}
                 id={id}

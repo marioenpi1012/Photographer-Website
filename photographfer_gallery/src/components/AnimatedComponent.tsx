@@ -8,7 +8,7 @@ const AnimatedComponent:React.FC<ChildrenComponent> = ({children}) =>{
             animate={{opacity:1}}
             exit={{opacity:0}}
             transition={{duration:1}}
-        >
+        >   
             {children}
         </motion.main>
     )

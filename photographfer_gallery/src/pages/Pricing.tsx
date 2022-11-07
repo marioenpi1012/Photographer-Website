@@ -7,6 +7,7 @@ import CompareTable from "../components/CompareTable";
 import BetaComponent from "../components/BetaComponent";
 import AnimatedComponent from "../components/AnimatedComponent";    
 import Cards from "../components/Cards";
+import { Helmet } from 'react-helmet'
 const Pricing:React.FC = () =>{
     const pricingData:LandingInterface = {
         id:0,
@@ -17,9 +18,11 @@ const Pricing:React.FC = () =>{
         dark:true
     }
     const { id, image, heading, description, accent, dark} = pricingData
-    console.log('re-rendered Pricing')
     return(
         <AnimatedComponent>
+            <Helmet>
+                <title>Photosnaps | Pricing</title>
+            </Helmet>
             <Landing 
                 id={id}
                 image={image}
