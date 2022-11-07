@@ -4,59 +4,32 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    // backgroundImage: (theme) =>({
-    //     "bg-image-gradient-180deg":[
-    //       '180deg',
-    //       theme("colors.gray.600"),
-    //       theme("colors.gray.500"),
-    //     ]
-    //   }),
     extend: {
       colors:{
         'black':'#000000',
         'gray':'#DFDFDF',
         'white':'#FFFFFF',
         'red':'#DF5656',
-        'accent':'linear-gradient(27deg, #FFC593 0%, #BC7198 49%, #5A77FF 95%)'
+        'accent':'linear-gradient(27deg, #FFC593 0%, #BC7198 49%, #5A77FF 95%)',
+        'dark-gray':'#f5f5f5'
       },
       fontFamily:{
         'sans-serif' : ['DM Sans', 'sans-serif']
       },
-      backgroundImage:{
-        'mobile-mountains' :"url('/src/images/stories/mobile/mountains.png')",
-        'desktop-mountains' :"url('/src/images/stories/desktop/mountains.jpg')",
-        'mobile-sunset' :"url('/src/images/stories/mobile/cityscapes.jpg')",
-        'desktop-sunset' :"url('/src/images/stories/desktop/cityscapes.jpg')",
-        'mobile-18-days' :"url('/src/images/stories/mobile/18-days-voyage.jpg')",
-        'desktop-18-days' :"url('/src/images/stories/desktop/18-days-voyage.jpg')",
-        'mobile-architecturals' :"url('/src/images/stories/mobile/architecturals.jpg')",
-        'desktop-architecturals' :"url('/src/images/stories/desktop/architecturals.jpg')",
-        'mobile-world':"url('/src/images/stories/mobile/world-tour.jpg')",
-        'desktop-world':"url('/src/images/stories/desktop/world-tour.jpg')",
-        'mobile-unforeseen':"url('/src/images/stories/mobile/unforeseen-corners.jpg)",
-        'desktop-unforeseen':"url('/src/images/stories/desktop/unforeseen-corners.jpg)",
-        'mobile-king':"url('/src/images/stories/mobile/king-on-africa.jpg)",
-        'desktop-king':"url('/src/images/stories/desktop/king-on-africa.jpg)",
-        'mobile-trip':"url('/src/images/stories/mobile/trip-to-nowhere.jpg)",
-        'desktop-trip':"url('/src/images/stories/desktop/trip-to-nowhere.jpg)",
-        'mobile-rage':"url('/src/images/stories/mobile/rage-of-the-sea.jpg)",
-        'desktop-rage':"url('/src/images/stories/desktop/rage-of-the-sea.jpg)",
-        'mobile-running':"url('/src/images/stories/mobile/running-free.jpg)",
-        'desktop-running':"url('/src/images/stories/desktop/running-free.jpg)",
-        'mobile-behind':"url('/src/images/stories/mobile/behind-the-waves.jpg)",
-        'desktop-behind':"url('/src/images/stories/desktop/behind-the-waves.jpg)",
-        'mobile-calm':"url('/src/images/stories/mobile/calm-waters.jpg)",
-        'desktop-calm':"url('/src/images/stories/desktop/calm-waters.jpg)",
-        'mobile-milky-way':"url('/src/images/stories/mobile/milky-way.jpg)",
-        'desktop-milky-way':"url('/src/images/stories/desktop/milky-way.jpg)",
-        'mobile-night':"url('/src/images/stories/mobile/dark-forest.jpg)",
-        'desktop-night':"url('/src/images/stories/desktop/dark-forest.jpg)",
-        'mobile-somwarpets':"url('/src/images/stories/mobile/somwarpet.jpg)",
-        'desktop-somwarpets':"url('/src/images/stories/desktop/somwarpet.jpg)",
-        'mobile-land':"url('/src/images/stories/mobile/land-of-dreams.jpg)",
-        'desktop-land':"url('/src/images/stories/desktop/land-of-dreams.jpg)",
-      },
-      
+      backgroundImage: { 
+        'facebook': "url('/public/images/shared/desktop/facebook.svg')" ,
+        'youtube': "url('/public/images/shared/desktop/youtube.svg')" ,
+        'pinterest': "url('/public/images/shared/desktop/pinterest.svg')" ,
+        'instagram': "url('/public/images/shared/desktop/instagram.svg')" ,
+        'twitter': "url('/public/images/shared/desktop/twitter.svg')" ,
+        // Hover
+        'facebook-hover': "url('/public/images/shared/desktop/facebook-hover.svg')" ,
+        'youtube-hover': "url('/public/images/shared/desktop/youtube-hover.svg')" ,
+        'pinterest-hover': "url('/public/images/shared/desktop/pinterest-hover.svg')" ,
+        'instagram-hover': "url('/public/images/shared/desktop/instagram-hover.svg')" ,
+        'twitter-hover': "url('/public/images/shared/desktop/twitter-hover.svg')" ,
+
+      }
     },
   },
   

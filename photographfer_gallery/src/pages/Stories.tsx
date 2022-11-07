@@ -1,17 +1,14 @@
 import React from 'react'
-import Landing from '../components/Landing'
-// import StoriesComponent from '../components/Stories'
-import Arrow from '../images/shared/desktop/arrow-white.svg'
+import BackgroundImage from '../components/BackgroundImage'
+import StoriesComponent from '../components/Stories'
+import { Images } from '../data/imagesName'
+import { imagesUrls } from '../data/imagesUrl'
 import {LandingInterface} from '../Interfaces'
-import MobileMoon from '../images/stories/mobile/moon-of-appalacia.jpg'
-import TabletMoon from '../images/stories/tablet/moon-of-appalacia.jpg'
-import DesktopMoon from '../images/stories/desktop/moon-of-appalacia.jpg'
+import AnimatedComponent from '../components/AnimatedComponent'
 const Stories: React.FC = () => {
     const LandingData: LandingInterface = {
         id: 0,
-        images: [
-            MobileMoon, TabletMoon, DesktopMoon
-        ],
+        image :'mountains',
         heading: 'Hazy full moon of appalachia',
         subheading: "last moth's features story",
         date: 'March 2nd 2022',
@@ -23,7 +20,7 @@ const Stories: React.FC = () => {
 
     const {
         id,
-        images,
+        image,
         heading,
         subheading,
         date,
@@ -31,16 +28,11 @@ const Stories: React.FC = () => {
         creatorName
     } = LandingData
     return (
-        <main>
+        <AnimatedComponent>
             <section key={id} className="relative flex flex-col flex-nowrap md:items-center">
-                <picture className='md:h-[65rem]'>
-                    <source media='(min-width:1024px)' srcSet={images[2]}/>
-                    <source media='(min-width:768px)' srcSet={images[1]}/>
-                    <img
-                        src={images[0]}
-                        className='w-full h-full object-cover object-center'
-                        loading='lazy'/>
-                </picture>
+                <div className='h-[29.4rem] w-screen md:h-[65rem]'>
+                    <BackgroundImage image={Images.MOON_OF_APPALACIA} imageUrl={imagesUrls.STORIES} />
+                </div>
                 <div
                     className="relative bg-black w-full pt-0 pl-12 pr-9 pb-28 md:absolute md:bg-transparent md:top-0 md:left-0 min-h-[41.9rem]
                 md:h-[65rem] md:w-[64.453%] md:p-0 md:flex md:items-center xl:w-[42.316%]">
@@ -60,14 +52,13 @@ const Stories: React.FC = () => {
                         <p className="text-white opacity-60 text-2xl w-full mt-6 mb-9 md:mb-20 md:max-w-[38.7rem]">{description}</p>
                         <div className="text-white flex flex-row space-x-6">
                             <input type='button' value='Read the story' className='uppercase'/>
-                            <img src={Arrow} alt=""/>
+                            <img src={process.env.PUBLIC_URL + '/images/shared/desktop/arrow-white.svg'} alt=""/>
                         </div>
                     </div>
                 </div>
-
             </section>
-            {/* <StoriesComponent/> */}
-        </main>
+            <StoriesComponent/>
+        </AnimatedComponent>
     )
 }
 
