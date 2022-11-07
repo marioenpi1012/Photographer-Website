@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useRef, useState} from 'react';
+import React from 'react';
 import { Routes, Route, useLocation} from 'react-router-dom';
 import Home from './pages/Home'
 import Nav from './components/Nav';
@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
-          <Route index element={ <Home />} />
+          <Route path='/' index element={ <Home />} />
           <Route path='/stories' element={<Stories />} />
           <Route path='/features' element={<Features />} />
           <Route path='/pricing' element={<Pricing />} />
