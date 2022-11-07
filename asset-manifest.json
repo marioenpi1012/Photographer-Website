@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa4bcca1.css",
-    "main.js": "/static/js/main.d482077c.js",
-    "static/js/787.866af4fb.chunk.js": "/static/js/787.866af4fb.chunk.js",
-    "static/media/instagram-hover.svg": "/static/media/instagram-hover.21480e89adbd97fd0773.svg",
-    "static/media/instagram.svg": "/static/media/instagram.54feb83ad9716f96ea53.svg",
-    "static/media/pinterest-hover.svg": "/static/media/pinterest-hover.af9d6c061eb90729b0d9.svg",
-    "static/media/pinterest.svg": "/static/media/pinterest.8549115d0b21c3ff30b0.svg",
-    "static/media/twitter-hover.svg": "/static/media/twitter-hover.8c975ccebaf771670b43.svg",
-    "index.html": "/index.html",
-    "static/media/youtube-hover.svg": "/static/media/youtube-hover.d210bb87c07e3a7304b2.svg",
-    "static/media/twitter.svg": "/static/media/twitter.752d7d057fec533d6f0d.svg",
-    "static/media/facebook-hover.svg": "/static/media/facebook-hover.9a5fee2017d029404610.svg",
-    "static/media/youtube.svg": "/static/media/youtube.ee3414adcca2e3de0386.svg",
-    "static/media/facebook.svg": "/static/media/facebook.3f330eb8d2bf1c5ad061.svg",
-    "main.fa4bcca1.css.map": "/static/css/main.fa4bcca1.css.map",
-    "main.d482077c.js.map": "/static/js/main.d482077c.js.map",
-    "787.866af4fb.chunk.js.map": "/static/js/787.866af4fb.chunk.js.map"
+    "main.css": "/Photographer-Website/static/css/main.0b37779b.css",
+    "main.js": "/Photographer-Website/static/js/main.cc6fd476.js",
+    "static/js/787.866af4fb.chunk.js": "/Photographer-Website/static/js/787.866af4fb.chunk.js",
+    "static/media/instagram-hover.svg": "/Photographer-Website/static/media/instagram-hover.21480e89adbd97fd0773.svg",
+    "static/media/instagram.svg": "/Photographer-Website/static/media/instagram.54feb83ad9716f96ea53.svg",
+    "static/media/pinterest-hover.svg": "/Photographer-Website/static/media/pinterest-hover.af9d6c061eb90729b0d9.svg",
+    "static/media/pinterest.svg": "/Photographer-Website/static/media/pinterest.8549115d0b21c3ff30b0.svg",
+    "index.html": "/Photographer-Website/index.html",
+    "static/media/twitter-hover.svg": "/Photographer-Website/static/media/twitter-hover.8c975ccebaf771670b43.svg",
+    "static/media/youtube-hover.svg": "/Photographer-Website/static/media/youtube-hover.d210bb87c07e3a7304b2.svg",
+    "static/media/twitter.svg": "/Photographer-Website/static/media/twitter.752d7d057fec533d6f0d.svg",
+    "static/media/facebook-hover.svg": "/Photographer-Website/static/media/facebook-hover.9a5fee2017d029404610.svg",
+    "static/media/youtube.svg": "/Photographer-Website/static/media/youtube.ee3414adcca2e3de0386.svg",
+    "static/media/facebook.svg": "/Photographer-Website/static/media/facebook.3f330eb8d2bf1c5ad061.svg",
+    "main.0b37779b.css.map": "/Photographer-Website/static/css/main.0b37779b.css.map",
+    "main.cc6fd476.js.map": "/Photographer-Website/static/js/main.cc6fd476.js.map",
+    "787.866af4fb.chunk.js.map": "/Photographer-Website/static/js/787.866af4fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa4bcca1.css",
-    "static/js/main.d482077c.js"
+    "static/css/main.0b37779b.css",
+    "static/js/main.cc6fd476.js"
   ]
 }
