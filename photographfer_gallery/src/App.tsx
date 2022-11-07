@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
-          <Route path='/' element={ <Home />} />
+          <Route index element={ <Home />} />
           <Route path='/stories' element={<Stories />} />
           <Route path='/features' element={<Features />} />
           <Route path='/pricing' element={<Pricing />} />
