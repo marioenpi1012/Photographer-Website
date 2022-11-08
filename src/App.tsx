@@ -11,9 +11,9 @@ import { AnimatePresence } from 'framer-motion'
 function App() {
   const location = useLocation()
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       <Nav />
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
           <Route path='/' index element={ <Home />} />
           <Route path='/stories' element={<Stories />} />
