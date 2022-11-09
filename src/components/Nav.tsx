@@ -15,8 +15,8 @@ const Nav :React.FC = () => {
                 <div className=' cursor-pointer md:hidden' onClick={() => setNavOpen(!navOpen)}>
                     {
                         navOpen
-                            ? <img src={process.env.PUBLIC_URL + '/images/shared/mobile/close.svg'} alt="Close Icon" className='w-full h-4'/>
-                            : <img src={process.env.PUBLIC_URL + '/images/shared/mobile/menu.svg'} alt="Menu Button" className='w-full h-4'/>
+                            ? <img src={process.env.PUBLIC_URL + '/images/shared/mobile/close.svg'} alt="Close Icon"/>
+                            : <img src={process.env.PUBLIC_URL + '/images/shared/mobile/menu.svg'} alt="Menu Button" />
                     }
                 </div>
                 <nav className={`${navOpen ? '' : 'hidden'} absolute z-10 bg-white top-20 left-0 w-full py-10 text-center font-bold uppercase text-base 
